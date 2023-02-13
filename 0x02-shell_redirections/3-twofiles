@@ -1,2 +1,2 @@
 #!/bin/bash
-cat /etc/passwd > newfile.txt | cat /etc/hosts >> newfile.txt | cat newfile.txt
+cat /etc/passwd /etc/hosts
